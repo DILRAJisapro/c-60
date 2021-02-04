@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 40%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aliceblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#62ff1b 0%, #121995 100%);
+    z-index: 9;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+#name {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+}
+
+p {
+    max-width: 450px;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: darkgreen;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.links:hover {
+    background-color: cyan;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: darkred;
+}
